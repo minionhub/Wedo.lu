@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./staging-stop && ./staging-start

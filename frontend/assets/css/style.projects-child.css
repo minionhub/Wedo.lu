@@ -1,0 +1,200 @@
+body {
+  overflow: scroll;
+}
+.container-fluid {
+  padding-top: 100px;
+}
+.full {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+.search-form input[type='text'] {
+  width: calc(100% - 200px);
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #7e7e89;
+  border-bottom: solid 2px #5c5c68;
+}
+
+.search-form button {
+  margin-left: 25px;
+}
+
+.quote-wrapper #sidebar h2 {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #171717;
+  margin-bottom: 47px;
+}
+
+.custom-checkbox {
+  margin-bottom: 20px;
+  letter-spacing: 0.4px;
+  color: #525353;
+  cursor: pointer !important;
+}
+
+.custom-checkbox .custom-control-label {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+.quote-wrapper #main {
+  border-left: solid 1px #d1d1d1;
+}
+.quote-wrapper .col {
+  padding: 0;
+}
+.quote-wrapper #sidebar {
+  background-color: #fafafa;
+  padding: 24px 40px 42px 40px;
+  margin-top: -142px;
+}
+.quote-wrapper .submitted-requests {
+  padding-top: 30px;
+  padding-left: 51px;
+  padding-right: 44px;
+}
+.quote-wrapper .submitted-requests .results {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  color: #898989;
+  font-weight: 600 !important;
+  margin-bottom: 35px;
+}
+.quotes-list > li {
+  background-color: #fff;
+  border: solid 1px #d1d1d1;
+  padding: 26px 38px 38px 38px;
+  margin-bottom: 40px;
+}
+.quotes-list li header {
+  border-bottom: solid 1px #d1d1d1;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+}
+.quotes-list header h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #171717;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.quotes-list header p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  color: #525353;
+}
+.quotes-list li .meta-data {
+  border-bottom: solid 1px #d1d1d1;
+  margin-bottom: 30px;
+}
+
+.quotes-list .list3 li {
+  margin-right: 37px;
+  margin-bottom: 19px;
+}
+.list3 li,
+.list3 li a,
+.list3 li address,
+.list3 li i {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #5c5c68;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+.list3 li i {
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.quotes-list li .description p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.4px;
+  color: #7e7e89;
+  margin-bottom: 25px;
+}
+.quotes-list > li:hover {
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+.pagination .page-item {
+  color: #000;
+  font-size: 13px;
+  width: 33px;
+  height: 33px;
+  margin: 0 3px;
+}
+.pagination .page-item .page-link,
+.pagination .separator {
+  height: 100%;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #5c5c68;
+  border: 1px solid #979797;
+  border-radius: 0 !important;
+}
+.pagination .page-item.active .page-link {
+  color: #fff;
+  background-color: #ffa602;
+  border-color: #ffa602;
+}
+#main {
+  /* overflow-y: scroll;
+  max-height: 750px; */
+}
+.quotes-list li {
+  cursor: pointer;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: orange;
+  background-color: orange;
+}
+/* Responsive */
+@media screen and (max-width: 992px) {
+  .quote-wrapper #sidebar {
+    padding: 24px 20px 0px 20px;
+  }
+  .quote-wrapper #sidebar {
+    background-color: #fafafa;
+    margin-top: -30px;
+  }
+  .quote-wrapper .submitted-requests {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+  }
+  .quotes-list > li {
+    padding: 6px 15px 38px 15px;
+  }
+  .quotes-list .list3 li {
+    margin-right: 20px;
+  }
+  .search-form input[type='text'] {
+    width: 100%;
+  }
+  .search-form button {
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: right;
+  }
+  form.full {
+    text-align: center;
+  }
+}

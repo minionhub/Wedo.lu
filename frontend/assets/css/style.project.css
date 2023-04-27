@@ -1,0 +1,285 @@
+h3 {
+  font-weight: 600;
+}
+h4 {
+  font-size: 18px;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.single-project div.quote-wrapper {
+  padding-top: 89px;
+}
+
+.single-project .quote-wrapper .page-head {
+  border: 0;
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+span.project-status {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #ffa600;
+  padding: 0 12px;
+  border-radius: 20px;
+  color: #ffa600;
+  font-size: 12px;
+}
+.quote-wrapper .col {
+  padding: 0;
+}
+.quote-wrapper .page-head h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+  line-height: 36px;
+}
+.quote-wrapper .page-head p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  color: #5c5c68;
+  font-weight: 400 !important;
+}
+.single-project .employer-details {
+  background: #f9f9f9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.project-box {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+}
+.project-box .box-heading {
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #5c5c68;
+  line-height: 24px;
+}
+.project-box .box-heading img {
+  margin-right: 10px;
+}
+.line-wrap {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.line-wrap .line:first-child {
+  border: 0;
+}
+.employer-details .line {
+  padding: 21px 0px 14px 0px;
+}
+.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  border-top: solid 1px #d1d1d1;
+  padding: 29px 0 17px 0;
+  margin-bottom: 0;
+}
+
+.single-project .line p {
+  margin-bottom: 0;
+}
+.employer-details .line p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #171717;
+}
+.employer-details p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.4px;
+  color: #7e7e89;
+  margin-bottom: 26px;
+}
+.line p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #000;
+  min-width: 135px;
+}
+.employer-details .line > p {
+  font-weight: 400;
+  color: #5c5c68;
+}
+
+.employer-details .line span {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.4px;
+  color: #7e7e89;
+}
+.employer-details .line > span {
+  font-weight: 600;
+  font-size: 14px;
+  color: #5c5c68;
+  letter-spacing: 0;
+}
+
+.employer-details .project-content p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #5c5c68;
+}
+.popup-form-project.form-project {
+  padding-bottom: 30px;
+}
+.popup-form-project .item {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0px;
+}
+.message textarea.form-control {
+  border: unset;
+  border-bottom: 1px solid #5c5c68;
+}
+.message textarea.form-control:focus {
+  box-shadow: unset;
+}
+div.button {
+  margin-bottom: 20px;
+}
+.wrap-input-file {
+  background: url(https://wedo-dev-images.s3.eu-central-1.amazonaws.com/img/project/btn_file_fr.svg) no-repeat left 5px transparent;
+}
+.condition {
+  padding-bottom: 20px !important;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.condition label {
+  font-size: 13px;
+  font-weight: 400;
+  color: #5c5c68;
+}
+
+.button-2 {
+  background: #ffa600;
+  color: #fff;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-content {
+  top: 100px;
+}
+#project_contact_popup .modal-content {
+  border-radius: 10px;
+  text-align: center;
+  padding: 28px;
+}
+
+#project_contact_popup .buttons.button-2.first-contact {
+  background-color: #5c5c68;
+}
+
+#project_contact_popup .buttons.button-2 {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+#project_contact_popup .buttons.use-contact-form {
+  margin-bottom: 0px;
+}
+
+#project_contact_popup .modal-title {
+  margin-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#project_contact_popup .buttons.button-2:hover {
+  background-color: #232328;
+  color: white;
+}
+
+.single-project .quote-wrapper .page-head .btn {
+  padding: 15px 5px 15px 5px;
+  border-radius: 2px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+  min-width: 149px;
+  margin-top: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#contact-form-popup .cancel {
+  display: inline-block;
+  padding-right: 20px;
+}
+#contact-form-popup .submit {
+  display: inline-block;
+}
+.project-box {
+  margin-bottom: 15px;
+}
+.list-attach > span img {
+  margin-right: 5px;
+}
+.list-attach > span {
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+}
+.list-attach > span a {
+  color: #5c5c68;
+  font-size: 14px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-decoration: underline;
+  line-height: 22px;
+}
+.list-attach > span a:hover {
+  color: #ff9502;
+}
+.customer-contacted p {
+  font-size: 14px;
+  margin: 20px 0 8px 0;
+  font-weight: 600;
+  color: #171717;
+}
+/* Responsive */
+@media screen and (max-width: 767px) {
+  .single-project .quote-wrapper .page-head {
+    text-align: center;
+  }
+  .single-project .quote-wrapper .page-head .btn {
+    width: 100%;
+  }
+}

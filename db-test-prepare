@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./artisan-test migrate:refresh
+./artisan-test db:seed

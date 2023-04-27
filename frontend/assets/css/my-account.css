@@ -1,0 +1,1091 @@
+#my-account {
+  margin-top: 90px;
+}
+
+#my-account .banner {
+  position: relative;
+}
+
+#my-account .banner img {
+  height: 330px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#my-account .banner .container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: auto;
+  position: absolute;
+  /* background: #fff; */
+  padding: 40px 25px;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+#my-account .banner h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 40px;
+}
+
+#my-account .content {
+  background-color: #fafafa;
+}
+
+#my-account .wedo-input,
+#my-account .wedo-select .dropdown {
+  margin-bottom: 15px !important;
+}
+
+/* #my-account .wedo-input input,
+#my-account .wedo-select .selection.dropdown {
+  border-bottom: 1px solid #5c5c68 !important;
+} */
+
+#my-account hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#my-account .sidebar-wrapper {
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 1200px) {
+  #my-account .content .container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #my-account .content .container {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #my-account .banner .container {
+    width: 990px;
+  }
+}
+
+#my-account .banner {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+#my-account .banner img {
+  width: 100%;
+  object-fit: cover;
+  height: 327px !important;
+}
+
+#my-account .banner .container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: auto;
+  position: absolute;
+  padding: 0 20px;
+  /* max-width: 960px; */
+}
+
+#my-account .banner .container h2 {
+  font-size: 40px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: #000;
+  margin-top: 0;
+  background: #fff;
+  padding: 45px 25px;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+#my-account #sidebar,
+#my-account #main {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #fafafa;
+}
+
+#my-account #sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#my-account #sidebar nav ul li {
+  font-family: "Source Sans Pro'", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  border-bottom: solid 1px #d1d1d1;
+}
+
+#my-account #sidebar nav ul li a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #000;
+  display: block;
+  transition: all 0.5s;
+}
+
+#my-account #sidebar nav ul li.active a,
+#my-account #sidebar nav ul li:hover a {
+  background-color: #ffa602;
+  color: #fff;
+}
+
+#my-account #main {
+  border-left: solid 1px #d1d1d1;
+}
+
+#my-account #main .my-listings {
+  background-color: #fafafa;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 46px;
+}
+
+#my-account #main .my-listings h2 {
+  margin-top: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #171717;
+}
+
+#my-account #main .package-option {
+  padding: 60px 0 30px;
+}
+
+#my-account #main .package-option h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 54px;
+  color: #171717;
+}
+
+#my-account #main .package-option h2 span {
+  font-weight: 700;
+}
+
+#my-account .listing-box {
+  margin-bottom: 43px;
+  background-color: #fff;
+  border: solid 1px #d1d1d1;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  margin-bottom: 75px;
+}
+
+#my-account #main .price-box {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#my-account #main .price-box h4 {
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  color: #626061;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+
+#my-account #main .price-box .price {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 600 !important;
+  color: #ff9503;
+  line-height: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-top: -6px;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+}
+
+#my-account #main .price-box .subscription-details {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600 !important;
+  text-align: center;
+  color: #171717;
+  display: block;
+  margin-top: 20px;
+  white-space: nowrap;
+}
+
+#my-account #main .package-items p.item {
+  font-size: 13px;
+  line-height: normal;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  letter-spacing: 0;
+  color: #616161;
+  padding: 0;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  padding-left: 16px;
+}
+
+#my-account #main .package-items p.item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #ccccd4;
+  border-radius: 50%;
+  margin-top: 2px;
+}
+
+#my-account #main .listing-box .price-box,
+#my-account #main .listing-box .package-items {
+  margin-bottom: 32px;
+}
+
+#my-account #main .listing-box .package-items {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#my-account #main .other-packages .col-lg-3 {
+  margin-bottom: 32px;
+}
+
+#my-account #main .listing-box-2 {
+  padding: 42px 10px;
+  position: relative;
+  min-height: 100%;
+  margin-bottom: 0;
+  background-color: #fff;
+  border: solid 1px #d1d1d1;
+}
+
+#my-account #main .listing-box-2:hover {
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border: solid 1px #d1d1d1;
+}
+
+#my-account #main .listing-box-2 .price-box {
+  position: relative;
+  border-bottom: solid 1px #d1d1d1;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+#my-account #main .other-packages .price-box .price {
+  display: block;
+}
+
+#my-account #main .other-packages .subscription-details {
+  display: inline;
+}
+
+#my-account #main .other-packages .select-btn {
+  font-family: source sans pro, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-bottom: 33px;
+  padding: 15px 40px;
+  display: inline-block;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  border-radius: 2px;
+  line-height: 18px;
+  width: 100%;
+  text-align: center;
+  background: #ffa600;
+  color: #fff;
+  border: none;
+}
+
+#my-account .my-content p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #565d62;
+}
+
+#my-account table.job-manager-jobs {
+  width: 100%;
+  color: #484848;
+}
+
+#my-account table.job-manager-jobs tr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+#my-account table.job-manager-jobs thead tr {
+  border: none !important;
+}
+
+.list_logo {
+  font-family: Material Icons;
+  font-size: 18px;
+  padding-right: 10px !important;
+  vertical-align: middle !important;
+}
+
+.job_title a:focus,
+.job_title a:hover {
+  color: #ffa602;
+}
+
+.job_title a {
+  color: #484848;
+  transition: all 0.3s;
+}
+
+#my-account table ul.job-dashboard-actions {
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  font-size: 0.92em;
+  list-style-type: none;
+  padding-top: 5px;
+  visibility: visible !important;
+}
+
+#my-account table ul.job-dashboard-actions li {
+  float: none;
+  display: inline;
+  padding-right: 0.8em;
+  margin: 0 0.5em 0 0;
+  font-weight: 400;
+  list-style: none outside;
+  border-right: 1px solid #333;
+}
+
+#my-account table ul.job-dashboard-actions li:last-child {
+  border-right: none;
+}
+
+#my-account table ul.job-dashboard-actions li a {
+  color: #ff9502;
+}
+
+#my-account table ul.job-dashboard-actions li a:hover {
+  color: #000;
+}
+
+#my-account table td,
+#my-account table th {
+  padding: 12px 0;
+  font-weight: 500;
+}
+
+#my-account .edit-account .form-group,
+.account-from .form-group {
+  margin-bottom: 25px;
+}
+
+#my-account .edit-account label,
+.account-form label {
+  color: #565662;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+#my-account .edit-account input[type='text'],
+.account-form input[type='text'],
+#my-account .edit-account input[type='file'],
+.account-form input[type='file'],
+#my-account .edit-account textarea,
+.account-form textarea,
+#my-account .edit-account select,
+.account-form select {
+  display: block;
+  height: auto;
+  color: #1d1d23;
+  font-size: 14px;
+  transition: padding 0.25s ease-in-out;
+  padding: 14px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0;
+}
+
+#my-account .edit-account input[type='text']:focus,
+.account-form input[type='text']:focus,
+#my-account .edit-account input[type='file']:focus,
+.account-form input[type='file']:focus,
+#my-account .edit-account textarea:focus,
+.account-form textarea:focus {
+  border-color: #ffa602;
+  box-shadow: 0px 1px 0px 0px #ffa602;
+  padding-left: 5px;
+}
+
+#my-account .edit-account .save-btn {
+  background: #ffa602;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 15px 40px;
+  transition: all 0.2s ease;
+  border-radius: 2px;
+  line-height: 16px;
+}
+
+#my-account .edit-account .save-btn:hover {
+  background: #242429;
+}
+
+#my-account .edit-account legend {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+#my-account .edit-address,
+#my-account .edit-account {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#my-account .edit-address p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #565d62;
+  font-family: 'Open Sans', 'Poppins', sans-serif;
+}
+
+#my-account .edit-address .company-filter {
+  border: 1px solid #232328;
+  border-radius: 0;
+  padding: 13px 15px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#my-account .edit-address .company-filter.active {
+  border-color: #ff9502 !important;
+}
+
+#my-account .edit-address .company-filter .menu .item {
+  padding: 10px 15px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 1px solid #e5e5e5;
+}
+
+#my-account .edit-address .company-filter input.search {
+  padding: 13px 15px !important;
+}
+
+#my-account .edit-address .company-filter .dropdown.icon {
+  top: 14px;
+  color: #ffa602;
+}
+
+#my-account .edit-address .company-filter .menu .item.current {
+  background: #ffa602 !important;
+  color: white;
+}
+
+#my-account .sub-title {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #333 !important;
+}
+
+@media (max-width: 991px) {
+  #my-account .edit-address .company-filter {
+    margin-top: 30px;
+  }
+}
+
+#my-account .edit-address .address-wrapper {
+  padding-top: 100%;
+  position: relative;
+  border: 2px solid #e5e5e5;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+}
+
+#my-account .edit-address .address-wrapper:hover {
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+#my-account .edit-address .address-wrapper.new-address {
+  border: 2px dashed #bebebe;
+}
+
+#my-account .edit-address .address-wrapper.new-address:hover {
+  border-color: #ffa602;
+}
+
+#my-account .edit-address .address-wrapper.new-address:hover .plus-sign {
+  color: #ffa602;
+}
+
+#my-account .edit-address .address-wrapper .address {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#my-account .edit-address .address .default-mark {
+  border: 1px solid #ff9502;
+  color: #ff9502;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+#my-account .edit-address .address p {
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #5c5c68;
+}
+
+#my-account .edit-address .address .company {
+  font-weight: bold;
+}
+
+#my-account .edit-address .address .controls {
+  position: absolute;
+  bottom: 15px;
+}
+
+#my-account .edit-address .address .controls a {
+  font-size: 12px;
+  color: #ff9502;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 10px 0 6px;
+  border-right: 1px solid #5c5c68;
+  font-weight: 600;
+}
+
+#my-account .edit-address .address .controls a:hover {
+  color: #5c5c68;
+  text-decoration: underline;
+}
+
+#my-account .edit-address .address .controls a:first-child {
+  padding-left: 0;
+}
+
+#my-account .edit-address .address .controls a:last-child {
+  border-right: none;
+}
+
+#my-account .edit-address .new-address .address {
+  display: flex;
+  align-items: center;
+}
+
+#my-account .edit-address .new-address .plus-sign {
+  color: #bebebe;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+#my-account .edit-address .new-address h6 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #5c5c68;
+}
+
+#my-account .edit-address .address-type {
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #242429;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#my-account .edit-address .address-edit {
+  margin-top: 11px;
+  padding: 8px 28px;
+  border: none;
+  background: #f3f4f5;
+  border-radius: 2px;
+  color: #ffa602;
+  transition: all 0.3s;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#my-account .edit-address .address-edit:hover {
+  background-color: #ffa602;
+  color: #fff;
+}
+
+#my-account .edit-address .address-info {
+  font-size: 12px;
+  line-height: 24px;
+  color: #565d62;
+}
+
+#my-account .my-bookmarks .bookmark-content {
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  -webkit-transition: -webkit-box-shadow 0.25s ease-in-out;
+  transition: -webkit-box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out;
+  transition: box-shadow 0.25s ease-in-out, -webkit-box-shadow 0.25s ease-in-out;
+  margin-bottom: 20px !important;
+}
+
+#my-account .my-bookmarks .bookmark-content:hover {
+  -webkit-box-shadow: 0 5px 33px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 5px 33px rgba(0, 0, 0, 0.07);
+}
+
+#my-account .my-bookmarks .bookmark-content i {
+  background: #ffa602;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+#my-account .my-bookmarks .bookmark-content .bookmark-headline {
+  color: #242429;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  letter-spacing: 0;
+  font-size: 12px;
+  line-height: 35px;
+  top: -7px;
+  left: 7px;
+  position: relative;
+}
+
+#my-account .my-bookmarks .bookmark-content .no-bookmark {
+  font-size: 13px;
+}
+
+#my-account tbody .actions .btn {
+  background-color: #f3f4f5;
+  color: #ffa602;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#my-account tbody .actions .btn:hover {
+  background-color: #ffa602;
+  color: #fff;
+}
+
+#my-account address.billing-address,
+#my-account address p {
+  font-size: 14px !important;
+  line-height: 24px;
+}
+
+#my-account address p {
+  margin: 0;
+  position: relative;
+}
+
+#my-account address p i {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  font-size: 17px;
+}
+
+#my-account .account-actions {
+  font-size: 12px;
+  background-color: #f7f7f7;
+  font-family: 'Source Sans pro', sans-serif;
+}
+
+#my-account .account-actions button {
+  color: #fff;
+  background: #ffa602;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 15px 40px;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  border-radius: 2px;
+  line-height: 16px;
+}
+
+#my-account .account-actions button:before {
+  content: '\e899';
+  font-family: Material Icons !important;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 5px;
+  float: left;
+}
+
+#my-account .account-actions button:hover {
+  background: #242429;
+}
+
+#my-account select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 12px;
+  -webkit-transition: padding 0.25s ease-in-out;
+  transition: padding 0.25s ease-in-out;
+  padding-left: 0;
+}
+
+#my-account .select-wrapper,
+.account-form .select-wrapper {
+  position: relative;
+}
+
+#my-account .select-wrapper:after,
+.account-form .select-wrapper:after {
+  content: '\e313';
+  font-size: 20px;
+  position: absolute;
+  color: #ffa602;
+  right: 0;
+  top: 12px;
+  font-family: Material Icons !important;
+}
+
+#my-account .select-wrapper:focus {
+  height: auto !important;
+  padding-left: 5px;
+  border-color: #ffa602;
+  box-shadow: 0px 1px 0px 0px #ffa602;
+}
+
+div.tox-toolbar {
+  border-bottom: 1px solid #ddd !important;
+  background: #f5f5f5 !important;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+#my-account .form-sub-heading {
+  font-family: 'Source Sans pro', sans-serif;
+  margin-top: 0;
+  font-size: 13px;
+  border-bottom: 1px solid #ffa602;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #242429;
+}
+
+#my-account .select2-selection,
+.account-form .select2-selection {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  font-size: 12px;
+  padding: 14px 0;
+  height: auto;
+  outline: none;
+}
+
+#my-account .select2-selection__choice,
+.account-form .select2-selection__choice {
+  font-family: 'Source Sans pro', sans-serif;
+  list-style: none;
+  background: white;
+  border-radius: 0;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  font-size: 12px;
+}
+
+#my-account .select2-selection__arrow,
+.account-form .select2-selection__arrow {
+  display: none;
+}
+
+.select2-selection__rendered {
+  line-height: 20px !important;
+  padding-left: 0 !important;
+}
+
+.select2-results__option {
+  font-size: 12px;
+  font-family: 'Source Sans pro', sans-serif;
+}
+
+#my-account .region-wrapper:after {
+  display: none;
+}
+
+#my-account .uploaded-files img {
+  width: 100%;
+  height: 120px !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-bottom: 8px !important;
+}
+
+#my-account .uploaded-file {
+  position: relative;
+}
+
+#my-account .uploaded-file a {
+  position: absolute;
+  right: 27px;
+  bottom: 18px;
+  background: #ffa602;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#my-account .uploaded-file a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #fff;
+}
+
+#my-account .uploaded-file:hover a {
+  opacity: 1;
+  visibility: visible;
+}
+
+#my-account .edit-account input[type='file'],
+.account-form input[type='file'] {
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.select2 {
+  width: 100% !important;
+}
+
+#my-account .edit-account .lock-toggle {
+  position: relative;
+  cursor: pointer;
+}
+
+#my-account .edit-account .lock-toggle span {
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+#my-account .edit-account .lock-toggle:before {
+  position: absolute;
+  content: '\e898';
+  font-family: Material Icons !important;
+  display: block;
+  color: #565662;
+  font-size: 18px;
+  margin-right: 5px;
+  float: left;
+}
+
+#my-account .edit-account .coords-toggle p {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#my-account .edit-account .coords-toggle p:hover {
+  color: #ffa602;
+}
+
+#my-account .edit-account #map {
+  height: 250px;
+}
+
+#my-account .edit-account textarea,
+.account-form textarea {
+  min-height: 10em;
+  max-height: 30em;
+  resize: vertical;
+}
+
+#my-account .edit-account .date-wrapper {
+  position: relative;
+}
+
+#my-account .edit-account .date-wrapper i {
+  position: absolute;
+  top: 7px;
+  padding: 8px;
+  right: 0;
+  z-index: 10;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+#my-account .edit-account .payment-package {
+  padding: 15px 20px;
+  border: 1px solid #e3e3e3;
+  margin-top: 15px;
+  font-family: 'Open Sans', 'Poppins', sans-serif;
+}
+
+#my-account .edit-account .payment-package p {
+  font-size: 13px;
+}
+
+#my-account .edit-account .payment-package .md-checkbox {
+  position: relative;
+  margin: 10px 0;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+#my-account .edit-account .payment-package .md-checkbox input[type='radio'] {
+  width: 100%;
+  height: 100%;
+  outline: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+#my-account .edit-account .payment-package .md-checkbox label {
+  cursor: pointer;
+  float: none;
+  margin-bottom: 0;
+  font-size: 13px;
+  padding-left: 30px;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+#my-account .edit-account .payment-package .md-checkbox label i {
+  border-radius: 50%;
+  background-color: #fff;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  border: 2px solid rgba(0, 0, 0, 0.24);
+  border-style: inset;
+  padding: 0;
+}
+
+#my-account .edit-account .payment-package .md-checkbox input[type='radio']:checked+label i {
+  background-color: #ffa602;
+  border: none;
+  padding: 2px;
+}
+
+#my-account .edit-account {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 576px) {
+  #my-account #main .price-box .price {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #my-account table.job-manager-jobs tbody tr td {
+    padding-right: 10px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #my-account #main .my-listings {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 1440px) {
+  #my-account #main .price-box .price {
+    font-size: 25px;
+  }
+}
+
+.pagination .page-item {
+  color: #000;
+  font-size: 13px;
+  width: 33px;
+  height: 33px;
+  margin: 0 3px;
+}
+
+.pagination .page-item .page-link,
+.pagination .separator {
+  height: 100%;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #5c5c68;
+  border: 1px solid #979797;
+  border-radius: 0 !important;
+}
+
+.pagination .page-item.active .page-link {
+  color: #fff;
+  background-color: #ffa602;
+  border-color: #ffa602;
+}
+
+#my-account .breadcrumbs a {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#my-account .breadcrumbs .separator {
+  padding: 0 5px;
+  font-size: 12px;
+}
+
+#my-account .breadcrumbs .last {
+  color: #ff9502;
+}
+
+.validate-msg {
+  font-size: 13px;
+  padding: 5px;
+}

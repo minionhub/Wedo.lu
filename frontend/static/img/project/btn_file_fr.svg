@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="37" viewBox="0 0 130 37">
+  <g id="btn_file_default" transform="translate(-768 -1197)">
+    <rect id="bg_btn_file" width="130" height="37" transform="translate(768 1197)" fill="#5c5c68"/>
+    <text id="label_bg_btn_file" transform="translate(833 1221)" fill="#fff" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="-55.545" y="0">Choisir votre fichier</tspan></text>
+  </g>
+</svg>

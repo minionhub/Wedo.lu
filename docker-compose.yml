@@ -1,0 +1,72 @@
+version: "3.7"
+
+services:
+
+  php:
+    container_name: nginx
+    build:  ./backend/
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./backend:/var/www
+      - ./config/dev/nginx:/etc/nginx/conf.d
+    ports:
+      - 80:8000
+    depends_on:
+      - node
+
+  node:
+    container_name: nuxt
+    build:  ./frontend/
+    restart: always
+    command: sh -c "npm install && npm run start"
+    volumes:
+      - ./frontend:/app
+
+  node_bo:
+    container_name: node_bo
+    build:  ./frontend/
+    restart: always
+    command: sh -c "npm install && npm run serve"
+    volumes:
+      - ./backoffice:/app    
+    ports:
+      - 8081:8081  
+
+  mysql:
+    container_name: mysql
+    image: mysql:5.7.14
+    restart: always
+    environment:
+      MYSQL_ROOT_HOST: wedo
+      MYSQL_ROOT_PASSWORD: wedo
+      MYSQL_DATABASE: wedo
+      MYSQL_USER: wedo
+      MYSQL_PASSWORD: wedo
+    volumes:
+      - ./config/dev/mysql:/etc/my.cnf.d
+    ports:
+      - 3306:3306
+
+  elasticsearch:
+    container_name: elasticsearch
+    image: elasticsearch:6.7.2
+    environment:
+      discovery.type: single-node
+    ports:
+      - 9200:9200
+      - 9300:9300
+
+  kibana:
+    container_name: kibana
+    image: kibana:6.7.2
+    ports:
+      - 5601:5601
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

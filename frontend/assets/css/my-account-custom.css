@@ -1,0 +1,203 @@
+a {
+  color: #484848;
+}
+a:hover {
+  color: #ffa602;
+}
+address {
+  line-height: 1.42857143;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+p {
+  font-family: 'Open Sans', 'Poppins', sans-serif;
+  font-weight: 400 !important;
+  font-size: 13px;
+  line-height: 24px;
+  color: #565d62;
+}
+.myaccount-content {
+  width: auto;
+  float: none;
+}
+.shop_table {
+  border: 0;
+  margin-bottom: 0;
+  width: 100%;
+  margin: 0 -1px 24px 0;
+  text-align: left;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+.shop_table tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+.shop_table tr:last-child {
+  border-bottom: 0px;
+}
+.shop_table td {
+  padding: 9px 12px !important;
+  vertical-align: middle;
+  line-height: 1.5em;
+}
+
+.shop_table td a.button {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  overflow: visible;
+  padding: 0.618em 1em;
+  font-weight: 700;
+  border-radius: 3px;
+  left: auto;
+  color: #515151;
+  background-color: #ebe9eb !important;
+  border: 0;
+  display: inline-block;
+  background-image: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+.shop_table td a.button {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 15px 40px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  border-radius: 2px;
+  line-height: 16px;
+  display: block;
+  float: left;
+}
+.shop_table td a.button:hover {
+  background-color: #dad8da !important;
+  text-decoration: none;
+  background-image: none;
+  color: #515151;
+}
+.my-listings h2 {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #171717;
+}
+.shop_table tfoot td:nth-child(2) {
+  font-weight: 700 !important;
+}
+.my_account_orders th,
+.my_account_orders td {
+  padding: 14px 0 !important;
+}
+.my_account_orders .order-actions {
+  text-align: right;
+}
+.my_account_orders .order-actions .button {
+  margin: 0.125em 0 0.125em 0.25em;
+}
+.customer-details {
+  margin-bottom: 2em;
+}
+.customer-details .col2-set {
+  width: 100%;
+}
+.customer-details .col2-set ::after {
+  content: ' ';
+  display: table;
+}
+.customer-details .col2-set .col1 {
+  float: left;
+  width: 48%;
+}
+.customer-details .detail-column h2 {
+  border-bottom: 1px solid #ffa602;
+  margin-top: 0;
+  font-size: 13px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #242429;
+}
+.my_account_orders {
+  margin-bottom: 0 !important;
+}
+.my_account_orders thead tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+.customer-details address {
+  border: none;
+  padding-left: 0 !important;
+  font-style: normal;
+  margin-bottom: 0;
+  text-align: left;
+  width: 100%;
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+.customer-details .phone,
+.customer-details .email {
+  margin-bottom: 0;
+  padding-left: 1.5em;
+}
+.customer-details .phone::before {
+  font-family: WooCommerce;
+  speak: none;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 0.618em;
+  content: '';
+  text-decoration: none;
+  margin-left: -1.5em;
+  line-height: 1.75;
+  position: absolute;
+}
+.customer-details .email::before {
+  font-family: WooCommerce;
+  speak: none;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 0.618em;
+  content: '';
+  text-decoration: none;
+  margin-left: -1.5em;
+  line-height: 1.75;
+  position: absolute;
+}
+.customer-details p {
+  font-size: 14px !important;
+}
+.order-details-part {
+  margin-bottom: 2em;
+}
+.order-details-part h2.title {
+  border-bottom: 1px solid #ffa602;
+  font-size: 13px !important;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #242429;
+}
+@media screen and (max-width: 992px) {
+  .my-listings h2 {
+    font-size: 20px;
+  }
+}

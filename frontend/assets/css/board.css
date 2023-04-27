@@ -1,0 +1,501 @@
+/************************* Blog page starts here *************************/
+
+/************************* Banner section starts here *************************/
+
+.blog-banner {
+  background-image: url("https://wedo-dev-images.s3.eu-central-1.amazonaws.com/img/Conseils_luxembourg.jpg");
+}
+
+#board-page .banner {
+  height: 260px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+}
+
+#board-page .banner .inner-content {
+  padding-top: 90px;
+}
+
+#board-page .banner .inner-content h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.blog-banner .inner-content h1,
+.blog-banner .inner-content p {
+  color: #fff;
+}
+
+#board-page .banner .inner-content p {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600 !important;
+}
+
+/************************* banner section ends here *************************/
+
+/************************* content section starts here *************************/
+
+/************************* left content *************************/
+.board-content {
+  padding: 0 15px 60px;
+}
+
+.board-content .wrap-content {
+  max-width: 1250px;
+  margin: -60px auto auto;
+  -webkit-box-shadow: 0 0 35px 8px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 35px 8px rgba(0, 0, 0, .1);
+  background-color: #fff;
+  padding: 0;
+  position: relative;
+}
+
+.board-content .filter {
+  padding: 0;
+}
+
+.filter .inner-filter {
+  border-right: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+
+.filter p.title {
+  font-weight: 600 !important;
+  color: #5c5c68;
+  font-size: 18px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 20px;
+  margin: 0;
+}
+
+.filter .item {
+  padding: 15px 15px 9px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.filter label {
+  font-size: 12px;
+  color: #333;
+  font-weight: 600;
+  border: 1px solid #E5E5E5;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 0 7px 7px 0;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.filter input {
+  opacity: 0;
+  position: absolute;
+}
+
+.featured-articles .article {
+  margin-bottom: 15px;
+}
+
+.featured-articles .article .wrapper {
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+}
+
+.featured-articles .article h3 {
+  line-height: 18px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.featured-articles .article h3 a {
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+}
+
+.featured-articles .article span.date {
+  color: #5C5C68;
+  font-weight: 600;
+  font-size: 12px;
+  display: block;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.featured-articles .article a.tag {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: #ffa602;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 2.5px 10px;
+}
+
+/************************* right content *************************/
+
+.board-content .search-form {
+  margin: 40px 0;
+}
+
+.board-content .search-form input[type='text'] {
+  border: 1px solid #979797;
+  border-radius: 10px 0 0 10px;
+  font-size: 15px;
+  color: #5c5c68;
+  padding: 0 0 0 25px;
+  height: 60px;
+  float: left;
+  width: calc(100% - 135px);
+  outline: none;
+}
+
+.board-content .search-form button {
+  height: 60px;
+  margin-left: 0;
+  float: left;
+  border-radius: 0 10px 10px 0;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  width: 135px;
+  background: #ffa602;
+  letter-spacing: .4px;
+  text-align: center;
+  font-family: "Source Sans Pro'", sans-serif;
+  border: none;
+}
+
+.board-content .outer-posts {
+  position: relative;
+}
+
+.board-content .posts {
+  margin-right: 0;
+}
+
+.board-content .posts>.item {
+  margin-bottom: 20px;
+  padding-right: 0;
+}
+
+.board-content .posts .wrapper {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  padding-bottom: 43px;
+  height: 100%;
+}
+
+.board-content .posts a.tag,
+.board-content .posts span.tag {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: #ffa602;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 2.5px 10px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+.board-content .posts .bottom-text {
+  padding: 0 15px;
+}
+
+.board-content .posts h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin: 15px 0;
+  line-height: 1.5;
+  /* overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+}
+
+.board-content .posts .description p {
+  font-size: 12px;
+  color: #333;
+  line-height: 18px;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.board-content .posts .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 12px 0 0;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.board-content .posts span.date {
+  font-size: 12px;
+  font-weight: 600;
+  color: #5C5C68;
+  text-transform: capitalize;
+}
+
+.board-content .posts span.read-more {
+  color: #FFA602;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.board-content .posts img {
+  height: 125px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+/************************* content section ends here *************************/
+
+/************************* Blog page ends here *************************/
+
+/**************************** Jobboard page starts here ****************************/
+
+/************************* Banner section starts here *************************/
+
+.jobboard-banner {
+  background-image: url("https://wedo-dev-images.s3.eu-central-1.amazonaws.com/img/jobboard-banner.jpg");
+}
+
+.jobboard-banner .inner-content h1,
+.jobboard-banner .inner-content p {
+  color: #000;
+}
+
+.category-item p,
+.contract-item p,
+.employment-item p,
+.regions-item p {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 20px;
+  margin: 0;
+}
+
+.category-item label,
+.category-item p,
+.contract-item label,
+.contract-item p,
+.employment-item label,
+.employment-item p,
+.regions-item label,
+.regions-item p {
+  font-weight: 400;
+  color: #5c5c68;
+  font-size: 15px;
+}
+
+.filter p.tax.menu-active:after {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  margin-top: -10px;
+  right: 23px;
+}
+
+.jobboard-content .filter p {
+  position: relative;
+}
+
+.jobboard-content .filter p i {
+  font-size: 20px;
+  color: #ffa602;
+  position: absolute;
+  right: 15px;
+  top: 32%;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.jobboard-content .filter p .collapsed i {
+  font-size: 20px;
+  color: #ffa602;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.wrap-checkbox {
+  display: block;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.wrap-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  height: 25px;
+  width: 25px;
+  border: 2px solid #979797;
+  border-radius: 4px;
+}
+
+.wrap-checkbox input:checked~.checkmark {
+  border-color: #ffa602;
+}
+
+.wrap-checkbox .checkmark:after {
+  left: 7px;
+  top: 1px;
+  width: 8px;
+  height: 15px;
+  border: solid #ffa602;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.wrap-checkbox input:checked~.checkmark:after {
+  display: block;
+}
+
+.jobboard-content .filter p .svg {
+  position: absolute;
+  top: -5.5px;
+  margin-right: 3px;
+  left: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.jobboard-content .filter .category-sub p:hover .svg,
+.wrap-checkbox input:checked~.svg {
+  filter: invert(60%) sepia(98%) saturate(1120%) hue-rotate(357deg) brightness(102%) contrast(105%);
+}
+
+.wrap-checkbox.checkbox-svg {
+  padding-left: 43px !important;
+  padding-right: 25px !important;
+}
+
+.jobboard-content .posts p.location {
+  display: inline-block;
+  border-radius: 13px;
+  background-color: #e5e5e5;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #5c5c68;
+  margin: 0 2px 5px 0;
+  font-weight: 600 !important;
+  line-height: 15px;
+}
+
+.jobboard-content .posts p.location-more {
+  background-color: #fff;
+  border: 1px solid #5c5c68;
+}
+
+.jobboard-content .posts .wrapper {
+  padding-bottom: 15px;
+}
+
+/************************* Banner section ends here *************************/
+
+/**************************** Jobboard page ends here ****************************/
+
+.collapsed i.material-icons {
+  transform: rotate(-90deg) !important;
+}
+
+.jobboard-content .toggle-label {
+  font-weight: 600 !important;
+}
+
+.jobboard-content .collapse-toggle {
+  cursor: pointer;
+}
+
+.pagination .page-item {
+  color: #000;
+  font-size: 13px;
+  width: 33px;
+  height: 33px;
+  margin: 0 3px;
+}
+
+.pagination .page-item .page-link,
+.pagination .separator {
+  height: 100%;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #5c5c68;
+  border: 1px solid #979797;
+  border-radius: 0 !important;
+}
+
+.pagination .page-item.active .page-link {
+  color: #fff;
+  background-color: #ffa602;
+  border-color: #ffa602;
+}
+
+.board-content .badge {
+  color: #fff;
+  background: #ffa602;
+  border-radius: 10px;
+  padding: 5px 13px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  #board-page .banner {
+    background-image: url("https://wedo-dev-images.s3.eu-central-1.amazonaws.com/img/jobboard-banner-mobile.png");
+  }
+}
+
+#blog-category label.active {
+  border-color: #FFA602;
+  background-color: #FFA602;
+  color: #fff;
+}
+
+#blog-category label:hover {
+  border-color: #FFA602;
+  color: #FFA602;
+}

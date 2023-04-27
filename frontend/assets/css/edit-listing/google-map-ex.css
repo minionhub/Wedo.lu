@@ -1,0 +1,63 @@
+.google-map-ex {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.google-map-ex label {
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #565662;
+  font-size: 13px;
+  width: 100%;
+}
+
+.google-map-ex input {
+  width: 100%;
+  outline: none;
+  line-height: 18px !important;
+  padding: 14px 0 !important;
+  color: #1d1d23 !important;
+  font-size: 14px !important;
+  border-radius: 0 !important;
+  transition: all 0.25s ease-in-out;
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
+  background: transparent !important;
+}
+
+.google-map-ex input:focus {
+  border-color: #ffa602 !important;
+  box-shadow: 0px 1px 0px 0px #ffa602;
+  padding-left: 5px !important;
+}
+
+.pac-container .pac-item {
+  padding: 5px 15px;
+  border: none !important;
+  transition: all .3s;
+}
+
+.pac-container .pac-item:hover {
+  padding-left: 20px;
+}
+
+.pac-container::after {
+  display: none !important;
+}
+
+.google-map-ex .lock {
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.google-map-ex .lock i {
+  font-size: 20px;
+}
+
+.google-map-ex .coords {
+  cursor: pointer;
+  text-align: right;
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 14px;
+}

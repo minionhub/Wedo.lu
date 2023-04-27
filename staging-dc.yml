@@ -1,0 +1,49 @@
+version: "3.7"
+
+services:
+
+  php:
+    container_name: nginx
+    build:  ./backend/
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./backend:/var/www
+      - ./config/staging/nginx:/etc/nginx/conf.d
+    ports:
+      - 80:8000
+    depends_on:
+      - node
+
+  certbot:
+    image: certbot/certbot
+
+  node:
+    container_name: nuxt
+    build:  ./frontend/
+    restart: always
+    command: sh -c "npm install && npm run start-prod"
+    volumes:
+      - ./frontend:/app
+
+  mysql:
+    container_name: mysql
+    image: mysql:5.7.14
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: hfjksdhlfjkhdlkj
+      MYSQL_DATABASE: wedo_staging
+      MYSQL_USER: wedo
+      MYSQL_PASSWORD: 2TtqVlyegXv948iKCoFPrayTA5RRjkBnTKudhhoBKnwhiF
+    volumes:
+      - ./config/staging/mysql:/etc/my.cnf.d
+    ports:
+      - 3306:3306
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

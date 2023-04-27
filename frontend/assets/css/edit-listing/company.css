@@ -1,0 +1,42 @@
+.edit-company .group-title {
+  font-size: 13px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  margin-bottom: 15px;
+  color: #242429;
+  border-bottom: 1px solid #ffa602;
+}
+
+.edit-company .save-btn {
+  border-radius: 0;
+  background: #ffa602;
+  color: white;
+  border: none;
+  outline: none;
+  transition: all .2s ease;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 15px 40px;
+}
+
+.edit-company .save-btn:hover {
+  background: #000;
+}
+
+.success-msg {
+  padding: 1em 2em 1em 2em !important;
+  background-color: #fff;
+  color: #666;
+  border-top: solid 3px #3bbdb6 !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.success-msg:before {
+  content: "\2713";
+  color: #3bbdb6 !important;
+  margin-right: 15px;
+}

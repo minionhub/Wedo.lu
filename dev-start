@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./test-stop
+docker-compose up -d

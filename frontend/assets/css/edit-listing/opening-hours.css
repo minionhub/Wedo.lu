@@ -1,0 +1,226 @@
+.opening-hours {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.opening-hours .title {
+  font-size: 13px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  margin-bottom: 15px;
+  color: #242429;
+  border-bottom: 1px solid #ffa602;
+}
+
+.opening-hours label {
+  margin-bottom: 5px;
+  font-weight: 700;
+  color: #565662;
+  font-size: 13px;
+  width: 100%;
+}
+
+.opening-hours .tab .tab-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.opening-hours .tab .tab-links .tab-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #484848;
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #d0d1d5;
+}
+
+.opening-hours .tab .tab-links .tab-link:hover {
+  border-color: #ffa602;
+  color: #ffa602;
+}
+
+.opening-hours .tab .tab-links .tab-link.active {
+  background: #fff;
+  border-color: #ffa602;
+  color: #ffa602;
+}
+
+.opening-hours .tab .tab-content {
+  padding: 15px;
+  background: #f7f7f7;
+}
+
+.opening-hours .type {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.opening-hours .type input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0;
+}
+
+.opening-hours .type label {
+  font-size: 13px;
+  padding-left: 30px;
+  font-weight: 400;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.opening-hours .type label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, .24);
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+}
+
+.opening-hours .type input[type="radio"]:checked+label:before {
+  background: #ffa600;
+  border: none;
+}
+
+.opening-hours .type input[type="radio"]:checked+label:after {
+  content: "";
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 5px;
+  left: 4px;
+  width: 12px;
+  height: 6px;
+  border: 2px solid #fff;
+  border-top-style: none;
+  border-right-style: none;
+}
+
+.opening-hours .selection.dropdown,
+.opening-hours input.search,
+.opening-hours .item {
+  line-height: 18px !important;
+  padding: 14px 0 !important;
+  color: #1d1d23 !important;
+  font-size: 14px !important;
+  border-radius: 0 !important;
+  -webkit-transition: padding 0.25s ease-in-out;
+  transition: padding 0.25s ease-in-out;
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
+  background: transparent !important;
+}
+
+.opening-hours .item {
+  border: none !important;
+}
+
+.opening-hours .ui.dropdown .menu>.item:hover {
+  background: #ffa602 !important;
+  color: #fff !important;
+}
+
+.opening-hours i.dropdown.icon {
+  padding: 0.8em 0 !important;
+  font-size: 16px !important;
+  color: #ffa602 !important;
+  top: 17px !important;
+  display: none;
+}
+
+.opening-hours .ui.dropdown.active {
+  box-shadow: none !important;
+}
+
+.opening-hours .hour {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.opening-hours .hour .select-wrapper {
+  width: 45%;
+  float: left;
+  margin-right: 2%;
+  display: inline-block;
+}
+
+.opening-hours .hour .btn-wrapper {
+  width: 6%;
+  float: left;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.opening-hours .hour .btn-wrapper button {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #ffa600;
+  border: none;
+  width: 45px;
+  transition: all .3s;
+}
+
+.opening-hours .select-wrapper:after {
+  content: '\e313';
+  font-size: 20px;
+  position: absolute;
+  color: #ffa602;
+  right: 0;
+  top: 8px !important;
+  font-family: Material Icons !important;
+}
+
+.opening-hours .hour .btn-wrapper button:hover {
+  background: #000;
+}
+
+.opening-hours .add-btn {
+  background: #ffa602;
+  color: white;
+  margin: 15px 0 0;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 15px 0;
+  text-align: center;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  border: none;
+  width: 30%;
+}
+
+.opening-hours .add-btn:hover {
+  background: #000;
+}
+
+@media (max-width: 991px) {
+  .opening-hours .hour .select-wrapper {
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  .opening-hours .hour .btn-wrapper {
+    width: 10%;
+  }
+
+  .opening-hours .add-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,101 @@
+#my-account {
+  margin-top: 90px;
+}
+
+#my-account h2 {
+  font-size: 26px;
+  font-weight: 500;
+  color: #242429;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#my-account .container {
+  padding: 90px 0;
+}
+
+#my-account .shadow-custom {
+  box-shadow: 0 0 53px rgba(0, 0, 0, 0.1);
+}
+
+#my-account .form-wrapper {
+  background: rgba(255, 255, 255, 0.95);
+  border: none;
+  padding: 50px;
+  border-radius: 3px;
+}
+
+#my-account form .button {
+  border-radius: 2px;
+  padding: 15px 48px;
+}
+
+#my-account form .checkbox-wrapper {
+  padding-top: 15px;
+}
+
+#my-account form .checkbox-wrapper span {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#my-account form .checkbox label {
+  position: relative;
+  padding-left: 30px;
+}
+
+#my-account form .checkbox label span {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#my-account form .checkbox label a {
+  text-decoration: underline;
+}
+
+#my-account form .checkbox input[type='checkbox'] {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+#my-account form .forget-passwd a {
+  transition: all 0.3s;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#my-account form .forget-passwd a:hover {
+  color: #ffa602;
+}
+
+#my-account form .wedo-input legend {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+#my-account .account-error {
+  font-size: 14px;
+  color: #515151;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-top: 3px solid #ff5a61 !important;
+  padding: 20px;
+}
+
+#my-account .account-error .fa-icon {
+  color: #ff5a61;
+}
+
+#my-account .account-success {
+  font-size: 14px;
+  color: #515151;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-top: 3px solid #3bbdb6;
+  padding: 20px !important;
+}
+
+#my-account .account-success .fa {
+  color: #3bbdb6;
+}

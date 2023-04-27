@@ -1,0 +1,350 @@
+#page-head .member-login {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-width: 0;
+  border: solid 1px #d1d1d1;
+}
+
+#page-head.member-login>img {
+  min-height: 350px;
+  max-height: 350px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  object-position: center center;
+}
+
+#page-head .p-detail-box {
+  max-width: 160px;
+  height: 160px;
+  margin-top: -80px;
+  /************************* border: 1px solid #979797; *************************/
+  box-shadow: 0 0 32px rgba(0, 0, 0, .1);
+  padding: 25px;
+  background: #fff;
+}
+
+.job-content {
+  padding-bottom: 70px;
+}
+
+.job-content .headline {
+  padding: 0;
+}
+
+.job-content .headline h2 {
+  color: #333;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.job-content .headline p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #565d62;
+  font-family: 'Open Sans', 'Poppins', sans-serif;
+}
+
+.job-content .headline .left {
+  margin-top: 28px;
+}
+
+.job-content .headline .left p {
+  font-size: 15px;
+  font-weight: 600 !important;
+  color: #ffa602;
+  line-height: 25px;
+}
+
+.job-content .headline .right {
+  display: block;
+  /* margin-top: -48px; */
+}
+
+.job-content .headline .share {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  cursor: pointer;
+}
+
+.job-content .headline .share .dropdown-item {
+  font-size: 12px;
+  color: #5c5c68;
+  padding: .25rem .5rem;
+}
+
+.job-content .headline .share .dropdown-toggle:hover img {
+  background-color: #ffa60215;
+  filter: invert(64%) sepia(90%) saturate(2097%) hue-rotate(360deg) brightness(145%) contrast(102%);
+}
+
+.job-content .headline .share .dropdown.show .dropdown-toggle img {
+  filter: invert(64%) sepia(90%) saturate(2097%) hue-rotate(360deg) brightness(145%) contrast(102%);
+}
+
+.job-content .headline .apply-now {
+  text-align: right;
+  margin-right: 1px;
+}
+
+.job-content .headline .apply-now a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0;
+  background: #ffa602;
+  padding: 22px 45px;
+  margin: 20px 0 0;
+  font-family: 'Source Sans pro', sans-serif;
+  transition: all .3s;
+  text-decoration: none;
+  outline: none;
+
+}
+
+.job-content .headline .apply-now a:hover {
+  background-color: #232328;
+}
+
+.job-content .p-tab-content {
+  margin-top: 30px;
+}
+
+.job-content .p-tab-content .tab {
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 0 30px 40px;
+  margin-bottom: 20px;
+}
+
+.job-content .tab .title {
+  font-size: 18px;
+  font-weight: 600 !important;
+  color: #5c5c68;
+  padding: 10px 0;
+  border-bottom: 2px solid #e3e0e0;
+  margin-left: -30px;
+  margin-right: -30px;
+  padding-left: 65px;
+  position: relative;
+}
+
+.job-content .tab .title img {
+  position: absolute;
+  left: 25px;
+  top: 7px;
+}
+
+.job-content .tab .content {
+  padding-top: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.job-content .tab p {
+  color: #5c5c68;
+  font-size: 15px;
+  margin: 0;
+}
+
+.job-content .tab .your-email,
+.job-content .tab .your-name {
+  font-size: 14px;
+}
+
+.job-content .jobboard-form .item {
+  border-bottom: 2px solid #f2f2f2;
+  margin-bottom: 15px;
+}
+
+.job-content .jobboard-form .item-title {
+  color: #5c5c68;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 4px 0 15px;
+}
+
+.job-content .jobboard-form p {
+  font-size: 13px;
+  color: #5c5c68;
+}
+
+.job-content .jobboard-form input,
+textarea {
+  margin-bottom: 4px;
+  color: #5c5c68;
+  border: none;
+  border-bottom: 2px solid #aeaeb4;
+  width: 100%;
+  display: block;
+  resize: none;
+  line-height: 18px;
+  background-color: transparent;
+  padding: 14px 0;
+  outline: none;
+  font-size: 14px;
+  -webkit-transition: padding .25s ease-in-out;
+  transition: padding .25s ease-in-out;
+}
+
+.job-content textarea {
+  font-size: 16px;
+}
+
+.job-content input:focus,
+.job-content textarea:focus {
+  padding-left: 5px;
+  border-color: #ffa602 !important;
+  box-shadow: 0 1px 0 0 #ffa602 !important;
+}
+
+.job-content .jobboard-form span.p-file-valid {
+  position: relative;
+  top: 11px;
+  margin-left: 5px;
+}
+
+.job-content .jobboard-form.fr input[type=file] {
+  background: url("https://wedo-dev-images.s3.eu-central-1.amazonaws.com/img/boucher/btn_file_fr.svg") no-repeat center center transparent;
+  cursor: pointer;
+  border-bottom: none;
+  width: 130px;
+  height: 37px;
+  font-size: 0;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  outline: none;
+  text-indent: -99999px;
+  cursor: pointer;
+  background-size: 100% 100% !important;
+}
+
+.job-content .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.job-content .checkbox input[type=checkbox] {
+  width: auto;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 2px;
+}
+
+.job-content .checkbox input[type=checkbox]:focus {
+  box-shadow: none !important;
+}
+
+.job-content #mathcaptcha,
+.job-content #mathcaptcha_mobile {
+  width: 40px;
+  display: inline-block;
+  border: 1px solid;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  float: none;
+}
+
+.job-content input[type=submit] {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0;
+  background: #ffa602;
+  padding: 22px 45px;
+  margin: 3px 0 0;
+  transition: all .2s ease-in-out;
+  overflow: hidden;
+  border: none;
+}
+
+.job-content input[type=submit]:hover {
+  background-color: #232328;
+}
+
+.job-content .p-row:first-child {
+  margin-top: -12px;
+}
+
+.job-content .tab .p-row p:last-child {
+  font-weight: 600 !important;
+  text-align: right;
+}
+
+.job-content .tab .p-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 12px 0;
+}
+
+.job-content .tab .p-row.email p:last-child a {
+  color: #ffa602;
+  font-size: 15px;
+}
+
+.job-content .tab a {
+  color: #5c5c68;
+  font-size: 15px;
+  margin: 0;
+}
+
+.job-content .tab.location {
+  padding: 0;
+}
+
+.job-content .tab.location .title {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.job-content .desktop {
+  display: block;
+}
+
+.job-content .mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .job-content .headline h2 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .job-content .headline .left p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .job-content .headline .share {
+    display: none;
+  }
+
+  .job-content .headline .apply-now a {
+    display: block;
+    text-align: center;
+  }
+
+  .job-content .headline .right {
+    margin-top: 0;
+  }
+
+  .job-content .p-tab-content {
+    margin-top: 15px;
+  }
+}

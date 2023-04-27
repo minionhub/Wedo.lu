@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./dev-stop
+./test-stop
+docker-compose -f test-dc.yml -p wedotest up -d
+docker exec --user app nginxtest sh -c "artisan serve --port=9002 --env=testing"

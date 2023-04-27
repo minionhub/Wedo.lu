@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 14.999925 0 14.999925 15 0 15"></polygon>
+    </defs>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="results" transform="translate(-784.000000, -380.000000)">
+            <g id="Group-12" transform="translate(784.000000, 262.000000)">
+                <g id="Group-5" transform="translate(0.000000, 111.000000)">
+                    <g id="Page-1" transform="translate(0.000000, 7.000000)">
+                        <g id="Group-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M7.503425,0.5 C7.400425,0.5 7.299425,0.50225 7.197925,0.506 C3.379925,0.6605 0.499925,3.59925 0.499925,7.342 C0.499925,11.289 3.631175,14.5 7.479925,14.5 C11.350925,14.5 14.499925,11.34775 14.499925,7.473 C14.499925,3.628 11.361425,0.5 7.503425,0.5 M7.479925,15 C3.355425,15 -7.5e-05,11.56475 -7.5e-05,7.342 C-7.5e-05,3.3255 3.085925,0.172 7.178425,0.0065 C7.286675,0.00225 7.394175,0 7.503425,0 C11.636925,0 14.999925,3.35225 14.999925,7.473 C14.999925,11.62325 11.626425,15 7.479925,15" id="Fill-1" fill="#5C5C68" mask="url(#mask-2)"></path>
+                        </g>
+                        <path d="M6.9878,14.893925 C3.1558,9.784425 3.1618,4.248925 7.0043,0.086675 L7.37155,0.425675 C3.6513,4.455925 3.65755,9.619925 7.38805,14.593925 L6.9878,14.893925 Z" id="Fill-4" fill="#5C5C68"></path>
+                        <path d="M8.0183,14.8922 L7.6183,14.5922 C11.3483,9.6187 11.3543,4.4557 7.6348,0.42645 L8.00205,0.08695 C11.8438,4.2487 11.84955,9.7832 8.0183,14.8922" id="Fill-6" fill="#5C5C68"></path>
+                        <polygon id="Fill-8" fill="#5C5C68" points="1.351 11.5 13.69475 11.5 13.69475 11 1.351 11"></polygon>
+                        <polygon id="Fill-10" fill="#5C5C68" points="0.95075 4.5 13.99925 4.5 13.99925 4 0.95075 4"></polygon>
+                        <polygon id="Fill-11" fill="#5C5C68" points="0.2585 8 14.74475 8 14.74475 7.5 0.2585 7.5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

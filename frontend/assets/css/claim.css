@@ -1,0 +1,229 @@
+#claim {
+  margin-top: 90px;
+}
+
+#claim .banner .container {
+  max-width: 960px !important;
+}
+
+#claim .banner {
+  background: url(https://wedo-dev-images.s3.eu-central-1.amazonaws.com/img/pricing-banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 330px;
+  display: flex;
+  align-items: center;
+}
+
+#claim .banner h1 {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  padding: 45px;
+  background: #fff;
+}
+
+#claim .content h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #171717;
+  margin-bottom: 20px;
+}
+
+#claim .packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#claim .packages .package-wrapper {
+  flex: 1 0 20%;
+  box-sizing: border-box;
+  padding: 50px 6px 0;
+  margin-top: 20px;
+}
+
+#claim .packages .package-wrapper .package {
+  background: white;
+  border: solid 1px #d1d1d1;
+  border-top: 10px solid #5c5c68;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+}
+
+#claim .packages .package-wrapper .package .title {
+  font-size: 23px;
+  font-weight: 600;
+  color: #626061;
+  text-transform: uppercase;
+}
+
+#claim .brand .package:before {
+  content: 'LE PLUS POPULAIRE';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: -64px;
+  font-weight: 500;
+  font-size: 16px;
+  padding-bottom: 0;
+  height: 54px;
+  background-color: #ff9503;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 39px;
+  text-align: center;
+  background-image: url(https://wedo-dev-images.s3.eu-central-1.amazonaws.com/img/nm.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+#claim .packages .package-wrapper .package:hover {
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
+}
+
+#claim .package .price {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 600 !important;
+  color: #ff9503;
+}
+
+#claim .package .unit {
+  text-transform: uppercase;
+  color: #616161;
+  font-weight: 400 !important;
+  line-height: 10px;
+  font-size: 14px;
+}
+
+#claim .select-btn {
+  background: #ffa600;
+  color: #fff;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#claim .select-btn:hover {
+  color: #fff;
+  background: #242429;
+}
+
+#claim .item {
+  position: relative;
+  color: #616161;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: normal;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+#claim .item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #ccccd4;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+@media (max-width: 1200px) {
+  #claim .packages .package-wrapper {
+    flex: 1 0 33.333%;
+    max-width: 33.333%;
+  }
+}
+
+@media (max-width: 767px) {
+  #claim .packages .package-wrapper {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  #claim .packages .package-wrapper {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #claim .container {
+    max-width: 100% !important;
+  }
+}
+
+#claim img.claim-bkg {
+  object-fit: cover;
+  object-position: center;
+  height: 768px;
+  width: 100%;
+}
+
+#claim.claim-submitted {
+  position: relative;
+}
+
+#claim.claim-submitted .container {
+  max-width: 788px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: auto;
+  position: absolute;
+}
+
+#claim.claim-submitted .content {
+  background: white;
+  padding: 75px 40px;
+}
+
+#claim.claim-submitted h1 {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+
+#claim.claim-submitted p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: #565662;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+#claim.claim-submitted h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #565662;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#claim.claim-submitted a.company {
+  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  color: #565662;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#claim.claim-submitted a.company:hover {
+  color: rgb(255, 166, 2);
+}

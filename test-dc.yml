@@ -1,0 +1,46 @@
+version: "3.7"
+
+services:
+
+  phptest:
+    container_name: nginxtest
+    build:  ./backend/
+    restart: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./backend:/var/www
+      - ./config/test/nginx:/etc/nginx/conf.d
+    ports:
+      - 81:8001
+    depends_on:
+      - nodetest
+
+  nodetest:
+    container_name: nuxttest
+    build:  ./frontend/
+    restart: always
+    command: sh -c "npm install && npm run start-test"
+    volumes:
+      - ./frontend:/app
+
+  mysqltest:
+    container_name: mysqltest
+    image: mysql:5.7.14
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: wedotest
+      MYSQL_DATABASE: wedotest
+      MYSQL_USER: wedotest
+      MYSQL_PASSWORD: wedotest
+    volumes:
+     - ./config/test/mysql:/etc/my.cnf.d
+    ports:
+      - 3307:3307
+
+  adminertest:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080    

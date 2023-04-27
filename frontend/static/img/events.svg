@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" width="64" height="65" viewBox="0 0 64 65" class="svg  replaced-svg">
+    <defs>
+        <style>
+            .cls-1 {
+            fill: none;
+            stroke: #ff9502;
+            stroke-miterlimit: 10;
+            stroke-width: 1.9px;
+            }
+        </style>
+    </defs>
+    <title>étoile Final</title>
+    <polygon class="cls-1" points="32.55 5.94 26.32 26.48 4.09 26.48 21.69 38.77 15.37 59.06 32.55 46.43 49.89 59.06 43.43 38.77 59.91 26.73 39.03 26.73 32.55 5.94"></polygon>
+</svg>

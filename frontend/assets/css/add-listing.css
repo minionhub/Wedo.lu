@@ -1,0 +1,30 @@
+#add-listing {
+  margin-top: 90px;
+}
+
+#add-listing .card {
+  margin-bottom: 50px;
+}
+
+#add-listing .card .fa-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#add-listing .card .icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 7px;
+  background: #ffa602;
+  border-radius: 50%;
+}
+
+#add-listing .card .head {
+  font-family: 'Open Sans', 'Poppins', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+HOST_IP=`ip -4 addr show scope global dev docker0 | grep inet | awk '{print \$2}' | cut -d / -f 1`
+
+if [ "$1" != "" ]; then
+    CMD="cypress run --spec \"cypress/$@\""
+else
+    CMD=""
+fi
+
+RESULT="docker run --add-host wedotest:$HOST_IP -it -v $PWD/frontend/tests:/e2e -w /e2e cypress/included:3.3.0 $CMD"
+eval $RESULT
